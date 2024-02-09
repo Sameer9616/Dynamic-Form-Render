@@ -1,0 +1,66 @@
+[
+  {
+    "ID": 1,
+    "TmplType": "UI_View",
+    "TmplCode": "View_Common_Company",
+    "JsonData": {
+      "nm": "Company",
+      "vw": true,
+      "el": [
+        {
+          "nm": "CompanyOverview",
+          "fr": true,
+          "el": [
+            {
+              "nm": "CompanyName",
+              "tb": true
+            },
+            {
+              "nm": "Address",
+              "tb": true
+            },
+            {
+              "nm": "State",
+              "dd": true
+            },
+            {
+              "nm": "City",
+              "tb": true
+            },
+            {
+              "nm": "Pincode",
+              "tb": true
+            }
+          ]
+        },
+        {
+          "nm": "ShareHolders",
+          "gr": true,
+          "by": "CompanyOverview",
+          "el": [
+            {
+              "nm": "FistName",
+              "tb": true
+            },
+            {
+              "nm": "LastName",
+              "tb": true
+            },
+            {
+              "nm": "DateOfBirth",
+              "tb": true
+            },
+            {
+              "nm": "PercentageOwned",
+              "tb": true
+            },
+            {
+              "nm": "OrganizationName",
+              "tb": true
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
